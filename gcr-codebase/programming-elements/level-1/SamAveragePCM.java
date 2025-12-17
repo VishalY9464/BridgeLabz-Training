@@ -1,4 +1,4 @@
-// Program to calculate Sam's average percentage in PCM
+//Program to calculate Sam's average percentage in PCM
 public class SamAveragePCM {
 
     public static void main(String[] args) {
