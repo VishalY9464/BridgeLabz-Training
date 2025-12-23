@@ -44,7 +44,8 @@ public class CompareSubString{
 		}else{
 			System.out.println("substring are not equals");
 		}
-		
+		//close the Scanner
+		input.close();
 		
 	}
 }
