@@ -26,7 +26,7 @@ public class FactorialUsingRecursion {
          //print the result
         System.out.println("Factorial: " + result);
 
-         //close the scanner         
+        //close the scanner         
         input.close();
     }
 }
