@@ -1,3 +1,4 @@
+//program for factorial using recursion
 import java.util.Scanner;
 
 public class FactorialUsingRecursion {
@@ -13,16 +14,19 @@ public class FactorialUsingRecursion {
     }
 
     public static void main(String[] args) {
-
+        //create scanner object
         Scanner input = new Scanner(System.in);
-
+        //initialise variable
         System.out.print("Enter a number: ");
         int number = input.nextInt();
 
+         //call the factorial method
         long result = factorial(number);
 
+         //print the result
         System.out.println("Factorial: " + result);
 
+         //close the scanner         
         input.close();
     }
 }
