@@ -40,6 +40,7 @@ public class NumberGuessingGame {
             }
         }
 
+          //close the scanner
         input.close();
     }
 }
