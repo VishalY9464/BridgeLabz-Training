@@ -20,5 +20,6 @@ public class TimeZoneDisplay {
         System.out.println("Current Time in GMT : " + gmtTime);
         System.out.println("Current Time in IST : " + istTime);
         System.out.println("Current Time in PST : " + pstTime);
+
     }
 }
