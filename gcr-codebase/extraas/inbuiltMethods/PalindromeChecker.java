@@ -31,7 +31,8 @@ public class PalindromeChecker {
         } else {
             System.out.println("Not a Palindrome");
         }
-
+    
+         //close the scanner
         input.close();
     }
 }
