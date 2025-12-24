@@ -3,14 +3,13 @@ import java.util.Scanner;
 public class DuplicateString{
          public static String removeDuplicate(String text){
 		      String modifiedString="";
-			  for(int i=0;i<text.length();i++){
-			        char ch=text.charAt(i);
-				   if(!modifiedString.contains(String.valueOf(ch))){
-					   modifiedString+=ch;
-				   }
-				   
+		      for(int i=0;i<text.length();i++){
+			  char ch=text.charAt(i);
+		          if(!modifiedString.contains(String.valueOf(ch))){
+			    modifiedString+=ch;
+			     }	   
 			  }
-			  return modifiedString;
+			     return modifiedString;
 		 }
        public static void main(String[]args){
 	   //initialise variable
@@ -27,8 +26,11 @@ public class DuplicateString{
 	   
 	   //call the methods 
 	    System.out.println("old String:"+text);
-		System.out.println("Modified String: "+removeDuplicate(text));
+	    System.out.println("Modified String: "+removeDuplicate(text));
 	          
 	      
 	   }
+           //close the scanner
+           input.close();
+
 }
