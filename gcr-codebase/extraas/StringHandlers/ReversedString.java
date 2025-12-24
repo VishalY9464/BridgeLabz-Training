@@ -2,22 +2,20 @@
 
 import java.util.Scanner;
 public class ReversedString{
-             public static void reverseStringMethod(String text){
-			    
-	           String reverseString="";
-			   for(int i=text.length()-1;i>=0;i--){
-			         reverseString+=text.charAt(i);
-			      
-			   }
-			   //display the result
-			   System.out.println("ReversedString: "+reverseString);
-			   
-			 
-			 }
+                //create method for reverse string
+             public static void reverseStringMethod(String text){	    
+	            String reverseString="";
+		    for(int i=text.length()-1;i>=0;i--) 
+                       {
+		        reverseString+=text.charAt(i);
+		       }
+		  //display the result
+		    System.out.println("ReversedString: "+reverseString);
+	 }
        public static void main(String[]args){
 	   
 	   //initialise variable
-	   String text;
+	    String text;
 	  
 	   //create scanner object
 	   
@@ -30,6 +28,9 @@ public class ReversedString{
 	   
 	   //call the methods 
 	   reverseStringMethod(text);
+
+           //close the scanner
+           input.close();
 	          
 	   }
 }
