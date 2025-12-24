@@ -18,5 +18,6 @@ public class DateFormatting {
         System.out.println("Format 1: " + currentDate.format(format1));
         System.out.println("Format 2: " + currentDate.format(format2));
         System.out.println("Format 3: " + currentDate.format(format3));
+
     }
 }
