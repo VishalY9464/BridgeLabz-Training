@@ -30,7 +30,8 @@ public class PrimeNumberChecker {
         } else {
             System.out.println("Not a Prime Number");
         }
-
+      
+         //close the scanner
         input.close();
     }
 }
