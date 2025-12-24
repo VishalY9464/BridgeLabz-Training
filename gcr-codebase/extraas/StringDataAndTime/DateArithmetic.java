@@ -22,7 +22,8 @@ public class DateArithmetic {
 
         // Display result
         System.out.println("Final Date after operations: " + resultDate);
-
+         
+       //close the scanner
         input.close();
     }
 }
