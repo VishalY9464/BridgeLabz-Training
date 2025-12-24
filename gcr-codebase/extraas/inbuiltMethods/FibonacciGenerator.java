@@ -26,7 +26,8 @@ public class FibonacciGenerator {
         int terms = input.nextInt();
 
         generateFibonacci(terms);
-
+         
+        //close the scanner
         input.close();
     }
 }
