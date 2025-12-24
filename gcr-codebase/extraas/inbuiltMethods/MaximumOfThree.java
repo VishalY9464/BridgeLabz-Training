@@ -34,6 +34,7 @@ public class MaximumOfThree {
 
         System.out.println("Maximum number is: " + max);
 
+         //close the scanner
         input.close();
     }
 }
