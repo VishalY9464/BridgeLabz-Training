@@ -4,31 +4,32 @@ import java.util.Scanner;
 public class SubstringOccurrences {
 
     // Method to count substring occurrences
-    public static int countOccurrences(String str, String sub) {
+    public static int countOccurrences(String string, String substring) {
         int count = 0;
         int index = 0;
 
-        while ((index = str.indexOf(sub, index)) != -1) {
+        while ((index = string.indexOf(substring, index)) != -1) {
             count++;
-            index = index + sub.length(); // move forward
+            index = index + substring.length(); // move forward
         }
         return count;
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
-		// Take user input
+        // Take user input
         System.out.print("Enter the main string: ");
-        String str = sc.nextLine();
-		System.out.print("Enter the substring: ");
-        String sub = sc.nextLine();
+        String string = input.nextLine();
+
+	System.out.print("Enter the substring: ");
+        String substring = input.nextLine();
 		
         // Displaying the result
-        int result = countOccurrences(str, sub);
+        int result = countOccurrences(string, substring);
         System.out.println("Substring occurs " + result + " times.");
         
-		// Closing scanner stream
-        sc.close();
+	// Closing scanner stream
+        input.close();
     }
 }
