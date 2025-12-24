@@ -27,7 +27,8 @@ public class DateComparison {
         else if (date1.isEqual(date2)) {
             System.out.println("Both dates are EQUAL.");
         }
-
+        
+        //close the scanner
         input.close();
     }
 }
