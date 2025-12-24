@@ -35,7 +35,7 @@ public class CompareStrings {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter first string: ");
         String str1 = sc.nextLine();
@@ -45,7 +45,7 @@ public class CompareStrings {
 
         compareStrings(str1, str2);
         
-		// Closing scanner stream
-        sc.close();
+       // Closing scanner stream
+        input.close();
     }
 }
