@@ -1,5 +1,6 @@
-📅 Day 9 – Java OOPS: Class & Object
-(Date: 26-Dec-2025) (Focus: Core OOPS Fundamentals- class and objects )
+## 📅 Day 9 – Java OOPS: Class & Object  
+**(Date: 26-Dec-2025)**
+**(Focus: Core OOPS Fundamentals- class and objects )**
 
 -Learned the basic concepts of Class and Object in Java.
 
