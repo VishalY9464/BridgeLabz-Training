@@ -1,4 +1,4 @@
-package com.constructor.levelOne;
+package com.constructor.levelone;
 
 public class Book {
 	
