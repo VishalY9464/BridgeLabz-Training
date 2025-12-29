@@ -1,4 +1,4 @@
-
+//program for check attendance in bus
 
 import java.util.Scanner;
 public class SchoolBusAttandanceSystem{
@@ -35,7 +35,8 @@ public class SchoolBusAttandanceSystem{
 		System.out.println("Total Present Student:"+ presentStudent +"\nTotal Absent Student: "+ absentStudent);
 		
 		
-	
+	    //close the Scanner
+		input.close();
 	}
 
 }
