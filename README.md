@@ -218,3 +218,89 @@ BridgeLabz-Training
 
 🔗 *Code Link:*  
 👉 [Day 8– Extras & Advanced Practice ](https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extraas)
+
+
+## 📅 Day 9 – Core Java Scenario-Based Problems  
+
+### 🔹 Focus:
+- Conditional statements  
+- Loops (for, while, do-while)  
+- User input handling  
+- Logical thinking  
+
+### ✅ Problems Solved:
+- Election Booth Manager  
+- Metro Smart Card Fare System  
+- Result Generator  
+
+### 💻 LeetCode:
+- 5 basic logic-based problems  
+
+🔗 **Code Link:**  
+https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scenario-based  
+
+---
+
+## 📅 Day 10 – Core Java & LeetCode  
+
+### 🔹 Focus:
+- Arrays  
+- Two-pointer technique  
+- Binary search  
+- In-place operations  
+
+### ✅ Problems Solved:
+- Two Sum  
+- Remove Duplicates from Sorted Array  
+- Remove Element  
+- Search Insert Position  
+- Merge Sorted Array  
+
+🔗 **Code Link:**  
+https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase  
+
+---
+
+## 📅 Day 11 – Core Java + Scenario-Based Practice  
+
+### 🔹 Focus:
+- Arrays  
+- Bit manipulation  
+- Optimized logic  
+
+### ✅ LeetCode Problems:
+- Single Number  
+- Best Time to Buy and Sell Stock  
+- Majority Element  
+- Missing Number  
+- Move Zeroes  
+
+### ✅ Scenario-Based Problems:
+- Parking Lot System  
+- Number Guessing Game  
+- Shopkeeper Discount System  
+- School Bus Attendance System  
+- Phone Recharge Simulator  
+
+🔗 **Code Link:**  
+https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scenario-based  
+
+---
+
+## 📅 Day 12 – Scenario-Based Core Java  
+
+### 🔹 Focus:
+- Arrays & loops  
+- Menu-driven programs  
+- Real-world logic implementation  
+
+### ✅ Problems Solved:
+- Temperature Logger  
+- Train Reservation System  
+- Fitness Challenge Tracker  
+- Movie Ticket Booking  
+- Library Reminder App  
+
+🔗 **Code Link:**  
+https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scenario-based  
+
