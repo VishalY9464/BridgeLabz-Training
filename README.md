@@ -73,36 +73,34 @@ Organized all constructor and static concept programs systematically in the java
 👉 [Day 10 – Constructors & Instance vs Class Concepts](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
 
 
-📅 Day 12 – Java OOPS: Data Modeling & Object Relationships
+##📅 Day 11 – Java OOPS: Core Java Keywords##
+**🔹 Focus:**
 
-📅 Date: 30-Dec-2025
-🎯 Focus: Data Modeling, Association, Aggregation & Composition
+**static, final, this, instanceof**
 
-🔹 Key Learnings:
+**Understanding keyword behavior in OOP**
 
-Understood data modeling to represent real-world systems using OOP.
+✅ Concepts Practiced:
 
-Learned Association for object communication.
+static for class-level variables and methods
 
-Learned Aggregation (has-a relationship with independent objects).
+final for restricting modification
 
-Learned Composition (strong dependency between objects).
+this for referring to the current object
 
-Designed class relationships before coding.
+instanceof for runtime type checking
 
-Practiced clean, modular, and structured OOPS-based coding.
+Memory behavior and object interaction
 
-Followed proper naming conventions and formatting standards.
+✅ Programs Implemented:
 
-✅ Implemented Concepts:
+Examples using static, final, and this
 
-Association examples
+Object type checking using instanceof
 
-Aggregation examples
+Keyword-based OOPS demonstrations
 
-Composition examples
+🔗 Code Link:
+👉 https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords
 
-Real-world object modeling programs
 
-📂 Code Link:
-👉 https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling
