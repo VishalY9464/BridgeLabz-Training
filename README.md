@@ -73,34 +73,28 @@ Organized all constructor and static concept programs systematically in the java
 👉 [Day 10 – Constructors & Instance vs Class Concepts](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
 
 
-##📅 Day 11 – Java OOPS: Core Java Keywords##
-**🔹 Focus:**
+📅 Day 12 – Java OOPS: Data Modeling & Object Relationships
+(Date: 30-Dec-2025) (Focus: Data Modeling, Association, Aggregation & Composition)
 
-**static, final, this, instanceof**
+-> Learned the concept of data modeling in object-oriented programming to represent real-world systems.
 
-**Understanding keyword behavior in OOP**
+-> Understood different types of object relationships and how classes interact with each other.
 
-✅ Concepts Practiced:
+-> Studied Association to model communication and relationships between independent objects.
 
-static for class-level variables and methods
+-> Learned Aggregation to represent a “has-a” relationship where objects can exist independently.
 
-final for restricting modification
+-> Understood Composition as a strong form of aggregation where the lifecycle of child objects depends on the parent.
 
-this for referring to the current object
+-> Practiced designing class diagrams conceptually before implementing code.
 
-instanceof for runtime type checking
+-> Implemented simple programs to demonstrate real-world examples of association, aggregation, and composition.
 
-Memory behavior and object interaction
+-> Focused on writing clean, modular, and well-structured OOPS-based code.
 
-✅ Programs Implemented:
+-> Followed proper naming conventions, indentation, and consistent formatting.
 
-Examples using static, final, and this
+-> Organized all data-modeling and relationship-based programs systematically in the java-oops-practice branch.
 
-Object type checking using instanceof
-
-Keyword-based OOPS demonstrations
-
-🔗 Code Link:
-👉 https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords
-
+🔗 Code Link: 👉 [Day 12 – Data Modeling, Association, Aggregation & Composition](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
