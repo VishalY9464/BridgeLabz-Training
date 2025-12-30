@@ -71,3 +71,38 @@ Organized all constructor and static concept programs systematically in the java
 
 🔗 *Code Link:*
 👉 [Day 10 – Constructors & Instance vs Class Concepts](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
+
+
+📅 Day 12 – Java OOPS: Data Modeling & Object Relationships
+
+📅 Date: 30-Dec-2025
+🎯 Focus: Data Modeling, Association, Aggregation & Composition
+
+🔹 Key Learnings:
+
+Understood data modeling to represent real-world systems using OOP.
+
+Learned Association for object communication.
+
+Learned Aggregation (has-a relationship with independent objects).
+
+Learned Composition (strong dependency between objects).
+
+Designed class relationships before coding.
+
+Practiced clean, modular, and structured OOPS-based coding.
+
+Followed proper naming conventions and formatting standards.
+
+✅ Implemented Concepts:
+
+Association examples
+
+Aggregation examples
+
+Composition examples
+
+Real-world object modeling programs
+
+📂 Code Link:
+👉 https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling
