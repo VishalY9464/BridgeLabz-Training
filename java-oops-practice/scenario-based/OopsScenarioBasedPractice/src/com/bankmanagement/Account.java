@@ -1,12 +1,11 @@
 package com.bankmanagement;
 
+public class Account {
 
-class Account {
-
-    // Account number of the user
+    // Account number of the customer
     protected String accountNumber;
 
-    // Current balance of the account
+    // Current balance in the account
     protected double balance;
 
     // Constructor to initialize account details
@@ -15,7 +14,7 @@ class Account {
         this.balance = balance;
     }
 
-    // Method to deposit money into the account
+    // Deposit money into account
     public void depositMoney(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -24,7 +23,7 @@ class Account {
         }
     }
 
-    // Method to withdraw money from the account
+    // Withdraw money from account
     public void withdrawMoney(double amount) {
         if (amount <= balance) {
             balance -= amount;
@@ -33,9 +32,9 @@ class Account {
         }
     }
 
-    // Method to display account details
+    // Display account details
     public void display() {
         System.out.println("Account Number: " + accountNumber);
-        System.out.println("Current Balance: " + balance);
+        System.out.println("Balance: " + balance);
     }
 }
