@@ -73,7 +73,7 @@ Organized all constructor and static concept programs systematically in the java
 👉 [Day 10 – Constructors & Instance vs Class Concepts](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
 
 
-📅 Day 12 – Java OOPS: Data Modeling & Object Relationships
+## 📅 Day 12 – Java OOPS: Data Modeling & Object Relationships
 (Date: 30-Dec-2025) (Focus: Data Modeling, Association, Aggregation & Composition)
 
 -> Learned the concept of data modeling in object-oriented programming to represent real-world systems.
@@ -97,4 +97,31 @@ Organized all constructor and static concept programs systematically in the java
 -> Organized all data-modeling and relationship-based programs systematically in the java-oops-practice branch.
 
 🔗 Code Link: 👉 [Day 12 – Data Modeling, Association, Aggregation & Composition](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+
+## 📅 Day 13 – Java OOPS: Inheritance
+(Date: 31-Dec-2025) (Focus: Inheritance & Code Reusability in OOPS)
+
+-> Learned the concept of Inheritance in Java and how it enables code reusability.
+
+-> Understood the relationship between superclass (parent) and subclass (child).
+
+-> Practiced single inheritance to extend properties and behaviors of a base class.
+
+-> Learned multilevel inheritance where a class inherits from another derived class.
+
+-> Implemented hierarchical inheritance to model multiple subclasses inheriting from a common superclass.
+
+-> Used the extends keyword to establish inheritance relationships.
+
+-> Understood how method overriding works in inherited classes.
+
+-> Learned the role of the super keyword in accessing parent class constructors and methods.
+
+-> Focused on writing clean, readable, and well-structured OOPS-based code.
+
+-> Followed proper naming conventions, indentation, and consistent formatting.
+
+-> Organized all inheritance-based programs systematically in the java-oops-practice branch.
+
+🔗 Code Link: 👉 [Day 13 – Inheritance](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
