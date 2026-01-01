@@ -156,6 +156,6 @@ Designing classes, methods, constructors, and access modifiers
 
 -> Organized all scenario-based OOPS programs systematically in the java-oops-practice branch.
 
-🔗 Code Link: 👉 Day 14 – Scenario-Based OOPS Practice(https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+🔗 Code Link: 👉 [Day 14 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
-🔗 Code Link: 👉 Day 14 – Java OOPS Concepts – Encapsulation, Polymorphism, Abstract Classes & Interfaces(https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/oopspillars)
+🔗 Code Link: 👉 [Day 14 – Java OOPS Concepts – Encapsulation, Polymorphism, Abstract Classes & Interfaces](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/oopspillars)
