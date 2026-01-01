@@ -1,4 +1,4 @@
-package com.bankmanagement;
+package com.bankmanagement1;
 
 class Customer {
 

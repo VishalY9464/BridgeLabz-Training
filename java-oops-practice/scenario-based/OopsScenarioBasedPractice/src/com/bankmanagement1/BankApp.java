@@ -1,4 +1,4 @@
-package com.bankmanagement;
+package com.bankmanagement1;
 
 /*
  * Main class to test the Bank Management System
