@@ -29,7 +29,7 @@ Circular Linked List – last node links back to the first node forming a loop.
 - > Organized all Linked List programs systematically in the DSA practice branch.
 
 🔗 Code Link:
-[👉 Day 15 – Linked List (DSA)](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDSAConcepts/src/com/linkedlist)
+[👉 Day 15 – Linked List (DSA)](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/linkedlist)
 
 ## 📅 Day 16 – Data Structures & Algorithms: Stack, Queue & Hashing
 **(Date: 03-01-2026)**
