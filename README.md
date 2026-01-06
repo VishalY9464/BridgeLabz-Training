@@ -6,7 +6,7 @@
 
 📁 *Project Folder Structure*
 
-
+```
 BridgeLabz-Training
 │
 ├── core-java-practice
@@ -22,7 +22,7 @@ BridgeLabz-Training
 │   └── leet-code-codebase
 │
 └── README.md
-
+```
 - Learned basic Git commands (init, branch, checkout, add, commit, push).
 - Successfully pushed files to the remote repository.
   
