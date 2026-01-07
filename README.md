@@ -76,7 +76,7 @@ Organized all constructor and static concept programs systematically in the java
 
 
 ## 📅 Day 4 – Java OOPS: Data Modeling & Object Relationships
-(Date: 30-Dec-2025) (Focus: Data Modeling, Association, Aggregation & Composition)
+**(Date: 30-Dec-2025)** (Focus: Data Modeling, Association, Aggregation & Composition)
 
 -> Learned the concept of data modeling in object-oriented programming to represent real-world systems.
 
@@ -101,7 +101,7 @@ Organized all constructor and static concept programs systematically in the java
 🔗 Code Link: 👉 [Day 4 – Data Modeling, Association, Aggregation & Composition](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 
 ## 📅 Day 5 – Java OOPS: Inheritance
-(Date: 31-Dec-2025) (Focus: Inheritance & Code Reusability in OOPS)
+**(Date: 31-Dec-2025)** (Focus: Inheritance & Code Reusability in OOPS)
 
 -> Learned the concept of Inheritance in Java and how it enables code reusability.
 
@@ -128,7 +128,7 @@ Organized all constructor and static concept programs systematically in the java
 🔗 Code Link: 👉 [Day 5 – Inheritance](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 ## 📅 Day 6 – Java OOPS: Scenario-Based Design & Core OOPS Concepts
-(Date: 01-Jan-2026) (Focus: Encapsulation, Polymorphism, Abstract Classes & Interfaces)
+**(Date: 01-Jan-2026)** (Focus: Encapsulation, Polymorphism, Abstract Classes & Interfaces)
 
 -> Solved 4 scenario-based OOPS problems by applying real-world object-oriented design principles.
 
@@ -163,7 +163,7 @@ Designing classes, methods, constructors, and access modifiers
 🔗 Code Link: 👉 [Day 6 – Java OOPS Concepts – Encapsulation, Polymorphism, Abstract Classes & Interfaces](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/oopspillars)
 
 ## 📅 Day 7 – Java OOPS: Scenario-Based Problem Solving
-(Date: 02-01-2026) (Focus: Applying OOPS Concepts through Real-World Scenarios)
+**(Date: 02-01-2026)** (Focus: Applying OOPS Concepts through Real-World Scenarios)
 
 Practiced real-world, story-driven Java problems to strengthen OOPS fundamentals.
 
@@ -188,7 +188,7 @@ Focused on clean, modular, and reusable code, following proper naming convention
 🔗 Code Link: 👉 [Day 7 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
 ## 📅 Day 8 – Java OOPS: Scenario-Based Problem Solving
-(Date: 03-01-2026) (Focus: Applying OOPS Concepts through Real-World Scenarios)
+**(Date: 03-01-2026)** (Focus: Applying OOPS Concepts through Real-World Scenarios)
 
 Practiced real-world, story-driven Java problems to strengthen advanced OOPS understanding.
 
@@ -213,7 +213,7 @@ Focused on writing clean, modular, and reusable code following industry-standard
 🔗 Code Link: 👉 [Day 8 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
 ## 📅 Day 9 – Java OOPS: Scenario-Based Problem Solving
-(Date: 05-01-2026) (Focus: Applying OOPS Concepts through Academic & E-Commerce Scenarios)
+**(Date: 05-01-2026)** (Focus: Applying OOPS Concepts through Academic & E-Commerce Scenarios)
 
 Practiced real-world, story-driven Java problems to deepen understanding of advanced OOPS concepts.
 
@@ -238,7 +238,7 @@ Focused on writing clean, modular, and reusable code following OOPS principles a
 🔗 Code Link: 👉 [Day 9 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
 ## 📅 Day 10 – Java OOPS: Scenario-Based Problem Solving
-(Date: 06-01-2026) (Focus: Real-World Application of OOPS Concepts)
+**(Date: 06-01-2026)** (Focus: Real-World Application of OOPS Concepts)
 
 Practiced story-driven Java scenarios including PetPal, EventEase, EduMentor, and FitTrack.
 
@@ -255,7 +255,7 @@ Focused on clean, modular, and reusable code following core OOPS best practices.
 🔗 Code Link: 👉 [Day 10 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
 ## 📅 Day 11 – Java OOPS: Scenario-Based Problem Solving
-(Date: 07-01-2026) (Focus: Real-World Application of OOPS Concepts)
+**(Date: 07-01-2026)** (Focus: Real-World Application of OOPS Concepts)
 
 Implemented real-world Java scenarios: ParkEase, LoanBuddy, and BookBazaar.
 
