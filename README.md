@@ -306,7 +306,7 @@ https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scena
 🔗 **Code Link:**  
 https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scenario-based  
 
-##📅 Day 13 – Scenario-Based Core Java and Leetcode Practice
+## 📅 Day 13 – Scenario-Based Core Java and Leetcode Practice
 **(Date: 30-Dec-2025)**
 (Focus: Arrays & loops Menu-driven programs Conditional logic)
 
