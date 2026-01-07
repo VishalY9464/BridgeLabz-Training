@@ -221,6 +221,7 @@ BridgeLabz-Training
 
 
 ## 📅 Day 9 – Core Java Scenario-Based Problems  
+**(Date: 24-Dec-2025)**
 
 ### 🔹 Focus:
 - Conditional statements  
@@ -242,7 +243,7 @@ https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scena
 ---
 
 ## 📅 Day 10 – Core Java & LeetCode  
-
+**(Date: 26-Dec-2025)**
 ### 🔹 Focus:
 - Arrays  
 - Two-pointer technique  
@@ -262,7 +263,7 @@ https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/leet-
 ---
 
 ## 📅 Day 11 – Core Java + Scenario-Based Practice  
-
+**(Date: 27-Dec-2025)**
 ### 🔹 Focus:
 - Arrays  
 - Bit manipulation  
@@ -288,6 +289,7 @@ https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scena
 ---
 
 ## 📅 Day 12 – Scenario-Based Core Java  
+**(Date: 29-Dec-2025)**
 
 ### 🔹 Focus:
 - Arrays & loops  
@@ -304,3 +306,21 @@ https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scena
 🔗 **Code Link:**  
 https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scenario-based  
 
+##📅 Day 13 – Scenario-Based Core Java and Leetcode Practice
+**(Date: 30-Dec-2025)**
+(Focus: Arrays & loops Menu-driven programs Conditional logic)
+
+✅ Problems Solved:
+
+Digital Watch Simulation Used nested loops Stopped at 13:00 using break
+
+Online Quiz Application  Asked 5 MCQs Used arrays and switch
+
+Calculated score Currency Exchange Kiosk Converted INR to other currencies Used switch and do-while loop
+
+Bus Route Distance Tracker Added distance per stop Used while loop Exit on user choice
+
+Festival Lucky Draw  Checked divisibility by 3 and 5 Used loops and continue
+
+🔗 Code Link:
+👉 [Day 13 – Scenario-Based Core Java Programs](https://github.com/VishalY9464/BridgeLabz-Training/tree/core-java-practice/scenario-based)
