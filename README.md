@@ -162,7 +162,7 @@ Designing classes, methods, constructors, and access modifiers
 
 🔗 Code Link: 👉 [Day 6 – Java OOPS Concepts – Encapsulation, Polymorphism, Abstract Classes & Interfaces](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/oopspillars)
 
-📅 Day 7 – Java OOPS: Scenario-Based Problem Solving
+## 📅 Day 7 – Java OOPS: Scenario-Based Problem Solving
 (Date: 02-01-2026) (Focus: Applying OOPS Concepts through Real-World Scenarios)
 
 Practiced real-world, story-driven Java problems to strengthen OOPS fundamentals.
@@ -187,7 +187,7 @@ Focused on clean, modular, and reusable code, following proper naming convention
 
 🔗 Code Link: 👉 [Day 7 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
-📅 Day 8 – Java OOPS: Scenario-Based Problem Solving
+## 📅 Day 8 – Java OOPS: Scenario-Based Problem Solving
 (Date: 03-01-2026) (Focus: Applying OOPS Concepts through Real-World Scenarios)
 
 Practiced real-world, story-driven Java problems to strengthen advanced OOPS understanding.
@@ -212,7 +212,7 @@ Focused on writing clean, modular, and reusable code following industry-standard
 
 🔗 Code Link: 👉 [Day 8 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
-📅 Day 9 – Java OOPS: Scenario-Based Problem Solving
+## 📅 Day 9 – Java OOPS: Scenario-Based Problem Solving
 (Date: 05-01-2026) (Focus: Applying OOPS Concepts through Academic & E-Commerce Scenarios)
 
 Practiced real-world, story-driven Java problems to deepen understanding of advanced OOPS concepts.
@@ -237,7 +237,7 @@ Focused on writing clean, modular, and reusable code following OOPS principles a
 
 🔗 Code Link: 👉 [Day 9 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
-📅 Day 10 – Java OOPS: Scenario-Based Problem Solving
+## 📅 Day 10 – Java OOPS: Scenario-Based Problem Solving
 (Date: 06-01-2026) (Focus: Real-World Application of OOPS Concepts)
 
 Practiced story-driven Java scenarios including PetPal, EventEase, EduMentor, and FitTrack.
@@ -254,7 +254,7 @@ Focused on clean, modular, and reusable code following core OOPS best practices.
 
 🔗 Code Link: 👉 [Day 10 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
-📅 Day 11 – Java OOPS: Scenario-Based Problem Solving
+## 📅 Day 11 – Java OOPS: Scenario-Based Problem Solving
 (Date: 07-01-2026) (Focus: Real-World Application of OOPS Concepts)
 
 Implemented real-world Java scenarios: ParkEase, LoanBuddy, and BookBazaar.
