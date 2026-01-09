@@ -593,6 +593,28 @@ Focused on clean, modular, and reusable code with proper access control.
 
 🔗 Code Link: 👉 [Day 11 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
+
+## 📅 Day 12 – Java OOPS: Advanced Scenario-Based Practice
+**(Date: 08-01-2026)**
+**(Focus: Complex Domain Modeling & Business Logic)**
+
+- >Implemented advanced real-world Java scenarios: MediStore (Pharmacy Management) and TourMate (Travel Planner).
+
+- >Applied Inheritance and Polymorphism to handle diverse categories like Tablet/Syrup (Medicine) and International/Domestic (Trips).
+
+- >Utilized Interfaces (ISellable, IBookable) to standardize sales, booking, and expiry tracking workflows.
+
+- >Used Operators for complex calculations: medicine stock adjustments, discount applications, and total trip budget aggregation (Transport + Hotel + Activities).
+
+- >Maintained strict Encapsulation to secure sensitive data like internal cost breakdowns and pricing logic.
+
+🔗 Code Link:
+👉 [Day 12 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+
+
+
 # Week 3: Data Structure & Algorithm
 ## 📅 Day 1 – Data Structures & Algorithms: Linked List
 **(Date: 02-01-2026)**
@@ -699,5 +721,22 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 🔗 Code Link: 👉 [Day 4 – Data Structures: Searching, StringBuffer, StringBuilder, File Handling](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/stringbuffer)
 
 🔗 Code Link: 👉 [Day 4 – Data Structures: Searching, StringBuffer, StringBuilder, File Handling](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/stringbuilder)
+
+## 📅 Day 5 – Data Structures: Time & Space Complexity
+**(Date: 07-01-2026)**
+**(Focus: Analyzing Algorithm Efficiency)**
+
+- > Studied Time Complexity to understand how algorithm execution time grows with input size.
+
+- > Learned Space Complexity to analyze memory usage of algorithms during execution.
+
+- > Explored common Big-O notations such as O(1), O(n), O(n²), and O(log n).
+
+- > Compared different algorithms based on efficiency, scalability, and resource usage.
+
+- > Focused on writing optimized and efficient code by choosing appropriate algorithms and data structures.
+
+🔗 Code Link:
+[👉 Day 5 – Data Structures: Time & Space Complexity](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/algorithmruntimeanalysis)
 
 
