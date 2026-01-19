@@ -661,6 +661,23 @@ Focused on clean, modular, and reusable code with proper access control.
 🔗 Code Link:
 [👉 Day 15 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
+## 📅 Day 16 – Java OOPS: Scenario-Based Practice
+**(Date: 17-01-2026)**
+**(Focus: Core OOPS Concepts through Real-World Modeling)**
+
+- >Worked on OOPS-based scenarios at GeoMeasure Solutions to compare line segments using classes, constructors, methods, and encapsulation.
+
+- >Applied object-oriented design to calculate, compare, and manage line lengths while hiding internal data using encapsulation.
+
+- >Designed the Bag-n-Ball Organizer system using composition to model real-world relationships between bags and balls.
+
+- >Implemented capacity checks, add/remove operations, and display logic with clean method design.
+
+- >Focused on using constructors, this keyword, getters/setters, and optional interfaces to build modular and reusable OOPS-based solutions.
+
+🔗 Code Link:
+[👉 Day 16 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
 
 
 
@@ -888,5 +905,61 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 
 🔗 Code Link:
 [👉 Day 11 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
+
+## 📅 Day 12 – Data Structures & Algorithms: Scenario-Based Practice
+**(Date: 19-01-2026)**
+**(Focus: Sorting Algorithms for Real-World Data Processing)**
+
+- > Worked on DSA-based scenarios using Merge Sort, Quick Sort, and Bubble Sort to handle datasets of varying sizes.
+
+- > Applied Merge Sort in EduResults to merge pre-sorted district-wise student records into a stable state-level rank list.
+
+- > Used Quick Sort in FlashDealz to efficiently sort large, unsorted product data by discount during flash sales.
+
+- > Implemented Bubble Sort in FitnessTracker for small, frequently updated datasets requiring real-time ranking.
+
+- > Focused on selecting the appropriate sorting algorithm based on data size, stability, and performance needs.
+
+🔗 Code Link:
+[👉 Day 12 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
+
+
+# Week 4 : Collection Interface
+
+## 📅 Day 1 – Java Collections: Deep Dive into Generics
+**(Date: 15-01-2026)**
+**(Focus: Understanding Generics for Type-Safe Collections)**
+
+- > Studied Java Generics in detail to understand how they provide type safety and reduce runtime errors in collections.
+
+- > Learned how generic classes, methods, and interfaces work with collections like List, Set, and Map.
+
+- > Explored bounded type parameters, wildcards (? extends, ? super), and their use cases.
+
+- > Understood how generics improve code reusability, readability, and compile-time checking.
+
+- > Focused on applying generics effectively to write clean, robust, and maintainable collection-based code.
+
+🔗 Code Link:
+[👉 Day 1 – Java Generics & Collections Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/generics)
+
+## 📅 Day 2 – Java Collections Framework: List, Set, Queue & Map
+**(Date: 16-01-2026)**
+**(Focus: Complete Overview of Java Collections Framework)**
+
+- > Studied the Java Collections Framework in depth, covering List, Set, Queue, and Map interfaces.
+
+- > Explored List implementations such as ArrayList and LinkedList for ordered and index-based data storage.
+
+- > Learned Set implementations like HashSet and TreeSet to handle unique elements and sorted collections.
+
+- > Understood Queue and Deque implementations for FIFO processing and task scheduling.
+
+- > Studied Map implementations such as HashMap and TreeMap for efficient key–value data storage and retrieval.
+
+- > Focused on choosing the right collection type based on performance, ordering, and use-case requirements.
+
+🔗 Code Link:
+[👉 Day 2 – Java Collections Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com)
 
 
