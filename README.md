@@ -335,5 +335,22 @@ Focused on clean, modular, and reusable code with proper access control.
 🔗 Code Link:
 [👉 Day 15 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
+## 📅 Day 16 – Java OOPS: Scenario-Based Practice
+**(Date: 17-01-2026)**
+**(Focus: Core OOPS Concepts through Real-World Modeling)**
+
+- >Worked on OOPS-based scenarios at GeoMeasure Solutions to compare line segments using classes, constructors, methods, and encapsulation.
+
+- >Applied object-oriented design to calculate, compare, and manage line lengths while hiding internal data using encapsulation.
+
+- >Designed the Bag-n-Ball Organizer system using composition to model real-world relationships between bags and balls.
+
+- >Implemented capacity checks, add/remove operations, and display logic with clean method design.
+
+- >Focused on using constructors, this keyword, getters/setters, and optional interfaces to build modular and reusable OOPS-based solutions.
+
+🔗 Code Link:
+[👉 Day 16 – Scenario-Based OOPS Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
 
 
