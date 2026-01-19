@@ -1,0 +1,40 @@
+package com.filehandling;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class BufferedStreamFile {
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader br=new BufferedReader(new FileReader("D:\\Desktop\\FileHandling\\ClassFile2.txt"));
+		BufferedWriter br1=new BufferedWriter(new FileWriter("D:\\Desktop\\FileHandling\\ClassFile.txt"));
+		
+		String line;
+		while((line=br.readLine())!=null) {
+			br1.write(line);
+		}
+		System.out.println("File Copied Successfull!");
+		
+		double time=System.nanoTime();
+		System.out.println("time taken before: "+time);
+		
+		FileInputStream fis=new FileInputStream("D:\\Desktop\\FileHandling\\ClassFile2.txt");
+	    FileOutputStream fos=new FileOutputStream("D:\\Desktop\\FileHandling\\ClassFile.txt");
+	    
+	    int txt;
+	    while((txt=fis.read())!=-1){
+	    	fos.write(txt);
+	    }
+	   System.out.println("File copied successful!");
+	   double time2=System.nanoTime();
+		System.out.println("time taken after: "+time2);
+		
+		
+	}
+
+}
