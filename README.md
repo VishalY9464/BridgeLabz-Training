@@ -15,7 +15,7 @@ BridgeLabz-Training
 │   │
 │   ├── gcr-codebase
 │   │   ├── programming-elements
-│   │   ├── control-flow
+│   │   ├── control-flow 
 │   │   ├── arrays
 │   │   └── program-prerequisite
 │   │
