@@ -1,0 +1,44 @@
+package com.filehandling.serialization;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ObjectStream {
+
+    public static void main(String[] args) {
+
+        String filePath = "D:\\Desktop\\employees.ser";
+
+        // ---------- SERIALIZATION ----------
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList.add(new Employee(101, "Vishal", "IT", 50000));
+        employeeList.add(new Employee(102, "Amit", "HR", 45000));
+        employeeList.add(new Employee(103, "Neha", "Finance", 55000));
+
+        try (ObjectOutputStream oos =
+                     new ObjectOutputStream(new FileOutputStream(filePath))) {
+
+            oos.writeObject(employeeList);
+            System.out.println("Employees saved successfully!");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // ---------- DESERIALIZATION ----------
+        try (ObjectInputStream ois =
+                     new ObjectInputStream(new FileInputStream(filePath))) {
+
+            List<Employee> employees =
+                    (List<Employee>) ois.readObject();
+
+            System.out.println("\nRetrieved Employee Data:");
+            for (Employee emp : employees) {
+                System.out.println(emp);
+            }
+
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
