@@ -1,8 +1,0 @@
-package com.filehandling;
-
-public class SaveAndRetrieveUsingSerialization {
-	public static void main(String[] args) {
-		
-	}
-
-}
