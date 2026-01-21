@@ -222,8 +222,22 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 🔗 Code Link:
 [👉 Day 11 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
 
-## 📅 Day 12 – Data Structures & Algorithms: Scenario-Based Practice
-**(Date: 19-01-2026)**
+## 📅 Day 12 – DSA: Tree Data Structure
+**(Date: 19-01-2026)** **(Focus: Hierarchical Data Representation and Tree Traversal Techniques)**
+
+- > Studied the Tree data structure to understand hierarchical data representation and non-linear data organization.
+
+- > Learned the fundamentals of Binary Trees and Binary Search Trees (BST), including node relationships such as parent, child, and subtree.
+
+- > Explored BST operations like insertion, searching, and traversal to maintain ordered data efficiently.
+
+- > Practiced implementing real-world tree-based models, such as company hierarchy representation and file system traversal.
+
+- > Focused on strengthening recursive thinking and depth-first traversal (DFS) concepts for efficient tree processing.
+
+🔗 Code Link: [👉Day 12- Tree Data Structure Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/tree)
+
+***📅Scenario-Based Practice***
 **(Focus: Sorting Algorithms for Real-World Data Processing)**
 
 - > Worked on DSA-based scenarios using Merge Sort, Quick Sort, and Bubble Sort to handle datasets of varying sizes.
@@ -236,8 +250,42 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 
 - > Focused on selecting the appropriate sorting algorithm based on data size, stability, and performance needs.
 
-🔗 Code Link:
-[👉 Day 12 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
+🔗 Code Link: [👉 Day 12 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
+
+## 📅 Day 13 – Data Structures & Algorithms: Scenario-Based Practice
+
+**(Date: 20-01-2026)**
+**Focus: Sorting Algorithms for Real-World Applications**
+
+- > Implemented Insertion Sort in MovieTime to insert new movie showtimes into an almost-sorted schedule.
+
+- > Applied Merge Sort in FoodFest to merge multiple zone-wise, pre-sorted footfall datasets into one stable master list.
+
+- > Used Quick Sort in GamerZone to rank large, dynamic player score data efficiently.
+
+- > Focused on choosing sorting algorithms based on data size, order, and stability requirements.
+
+- >Strengthened understanding of real-time data handling and performance-driven sorting.
+
+🔗 Code Link: [👉 Day 13 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
+
+## 📅 Day 14 – Data Structures & Algorithms: Scenario-Based Practice
+
+**(Date: 21-01-2026)**
+**Focus: Sorting Algorithms for Time-Sensitive Data**
+
+- > Implemented Insertion Sort in TailorShop to insert new clothing orders into a nearly sorted list based on delivery deadlines.
+
+- > Applied Merge Sort in MedWarehouse to merge branch-wise, expiry-sorted medicine records into a unified list.
+
+- > Handled real-time order updates efficiently using deadline-based sorting.
+
+- > Ensured time-sensitive inventory tracking to prevent medicine wastage.
+
+- > Strengthened understanding of algorithm selection for sorted and critical datasets.
+
+🔗 Code Link: [👉 Day 14 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
 
 
 
