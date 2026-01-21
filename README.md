@@ -956,6 +956,23 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 
 🔗 Code Link: [👉 Day 13 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/sorting)
 
+## 📅 Day 14 – Data Structures & Algorithms: Scenario-Based Practice
+
+**(Date: 21-01-2026)**
+**Focus: Sorting Algorithms for Time-Sensitive Data**
+
+- > Implemented Insertion Sort in TailorShop to insert new clothing orders into a nearly sorted list based on delivery deadlines.
+
+- > Applied Merge Sort in MedWarehouse to merge branch-wise, expiry-sorted medicine records into a unified list.
+
+- > Handled real-time order updates efficiently using deadline-based sorting.
+
+- > Ensured time-sensitive inventory tracking to prevent medicine wastage.
+
+- > Strengthened understanding of algorithm selection for sorted and critical datasets.
+
+🔗 Code Link: [👉 Day 14 – DSA Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/dsa-practice/java-dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com)
+
 
 # Week 4 : Collection Interface
 
