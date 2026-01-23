@@ -86,7 +86,7 @@
 - > Learned JUnit fundamentals including annotations, test case writing, test class structure, and assertions for validating logic.
 
 🔗 Code Link: [👉 Day 5 –  JUnit Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/junittesting)
-🔗 Code Link: [👉 Day 5 – Regex ](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/junittesting)
+🔗 Code Link: [👉 Day 5 – Regex ](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/regex)
 
 
 
