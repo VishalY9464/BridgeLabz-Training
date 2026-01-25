@@ -105,4 +105,40 @@
 🔗 Code Link: [👉 Day 6 – Reflection](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/reflection)
 🔗 Code Link: [👉 Day 6 –Annotations Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/annotations)
 
+ # 📅 Day 7 – Java Advanced: Scenario-Based Practice (Collections, I/O, Regex, Generics)
+**(Date: 23-01-2026)**
+**(Focus: Real-World Data Processing using Core Java APIs)**
+
+- > Worked on real-world Java scenarios integrating Collections, Generics, I/O Streams, Regex, and Exception Handling.
+
+- > Implemented ResumeAnalyzer to read resume files, extract contact details and skills using regex, and organize candidates using maps and sorted lists.
+
+- > Built TravelLog using object serialization and collections to store trips, analyze travel data, and generate summaries.
+
+- > Designed FeedbackGuru to process feedback files, extract ratings via regex, and categorize feedback using generic data structures.
+
+- > Developed tools like CodeRepoCleaner and ExamScanner to scan files, validate formats, organize data, and rank results efficiently.
+
+- > Focused on writing robust, scalable, and modular Java applications using streams, collections, and proper error handling.
+
+🔗 Code Link: [👉 Day 7 – Advanced Java Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionScenarioBasedPractice/src/com/day1)
+
+## 📅 Day 8 – Java Collections: Scenario-Based Practice
+**(Date: 24-01-2026)**
+**(Focus: Real-World Data Processing using Collections, I/O & Regex)**
+
+- > Worked on advanced Java collection-based scenarios integrating I/O Streams, Regex, Generics, and Custom Exceptions.
+
+- > Implemented MedInventory to process hospital inventory CSV files, detect expired items, remove duplicates, and track low stock levels.
+
+- > Built ChatLogParser to analyze chat logs using regex, group messages by user, and filter idle conversations with sorted outputs.
+
+- > Developed SongVault to manage a personal music library by extracting song metadata, grouping by genre, and filtering using streams.
+
+- > Created tools like ExamResultUploader and DealTracker to validate CSV/text data, calculate rankings, and manage discounts efficiently.
+
+- > Focused on writing robust, scalable, and modular Java applications using Maps, Sets, Lists, PriorityQueue, and Generics.
+
+🔗 Code Link:
+[👉 Day 8 – Java Collections Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionScenarioBasedPractice/src/com/day2)
 
