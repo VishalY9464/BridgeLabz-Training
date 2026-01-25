@@ -1117,3 +1117,24 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 
 🔗 Code Link: [👉 Day 1 – CSV Data Handling Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamsConcepts/src/main/java/com/iostreams)
 
+
+## 📅 Day 6 – Java Collections & Core Java: Reflection and Annotations
+ **(Date: 22-01-2026)**
+ **(Focus: Runtime Metadata & Dynamic Behavior in Java)**
+
+- > Studied Java Reflection to inspect classes, methods, fields, and constructors at runtime.
+
+- > Learned how to access and invoke methods dynamically and analyze class metadata using the Reflection API.
+
+- > Explored Java Annotations to add metadata to classes, methods, and fields.
+
+- > Understood the use of custom annotations and how they are processed at runtime using reflection.
+
+- > Focused on using reflection and annotations for framework-level features, clean design, and advanced Java use cases.
+
+🔗 Code Link: [👉 Day 6 – Reflection](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/reflection)
+🔗 Code Link: [👉 Day 6 –Annotations Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/annotations)
+
+
+
+
