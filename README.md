@@ -1173,23 +1173,23 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 
 🔗 Code Link: [👉 Day 1 – CSV Data Handling Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamsConcepts/src/main/java/com/iostreams)
 
+## 📅 Day 2 – Java Data Handling: JSON Processing
+**(Date: 24-01-2026)**
+**(Focus: Working with JSON Data in Java Applications)**
 
-## 📅 Day 6 – Java Collections & Core Java: Reflection and Annotations
- **(Date: 22-01-2026)**
- **(Focus: Runtime Metadata & Dynamic Behavior in Java)**
+- > Studied JSON (JavaScript Object Notation) as a lightweight format for data exchange.
 
-- > Studied Java Reflection to inspect classes, methods, fields, and constructors at runtime.
+- > Learned how to read, parse, and write JSON data in Java applications.
 
-- > Learned how to access and invoke methods dynamically and analyze class metadata using the Reflection API.
+- > Worked with JSON objects and arrays to structure and manipulate data effectively.
 
-- > Explored Java Annotations to add metadata to classes, methods, and fields.
+- > Focused on using JSON for configuration handling, data transfer, and API-style communication.
 
-- > Understood the use of custom annotations and how they are processed at runtime using reflection.
+- > Emphasized writing clean, structured, and maintainable code while working with JSON data.
 
-- > Focused on using reflection and annotations for framework-level features, clean design, and advanced Java use cases.
+🔗 Code Link:
+[👉 Day 2 – JSON Handling Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamsConcepts/src/main/java/com/json)
 
-🔗 Code Link: [👉 Day 6 – Reflection](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/reflection)
-🔗 Code Link: [👉 Day 6 –Annotations Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionConcepts/src/com/annotations)
 
 
 
