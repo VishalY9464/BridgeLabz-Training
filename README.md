@@ -1190,6 +1190,21 @@ Focused on writing clean, optimized, and readable Java code following core Java 
 🔗 Code Link:
 [👉 Day 2 – JSON Handling Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/JavaIOStreamsConcepts/src/main/java/com/json)
 
+# 📅 Day 3 – Java I/O & Metadata: Scenario-Based Practice
+**(Date: 27-01-2026)** **(Focus: Annotations, Reflection, CSV & JSON Data Handling)**
+
+- > Worked on real-world Java scenarios integrating Annotations, Reflection, CSV parsing, and JSON processing.
+
+- > Implemented HealthCheckPro to scan API methods using custom annotations and reflection for validation and documentation generation.
+
+- > Built MarkMate to read student marks from CSV files, process results, and generate JSON-based report cards.
+
+- > Developed EventTracker to detect annotated methods and produce structured JSON audit logs using reflection.
+
+- >Focused on writing robust, metadata-driven, and data-processing applications with proper exception handling.
+
+🔗 Code Link: [👉 Day 3 – IO Scenario-Based Practice](https://github.com/VishalY9464/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based)
+
 
 
 
