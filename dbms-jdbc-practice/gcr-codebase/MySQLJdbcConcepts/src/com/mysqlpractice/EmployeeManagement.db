@@ -1,0 +1,138 @@
+Exercise 1: Simple CRUD Application
+Create a console-based Employee Management System with:
+• Add employee
+• View all employees
+• Update employee salary
+• Delete employee
+• Search employee by name
+
+---------------------------------------------------------------------------
+Create Database mysql_jdbc_db;
+
+USE mysql_jdbc_db;
+
+CREATE TABLE employee(
+   empId INT PRIMARY KEY,
+   name VARCHAR(50),
+   salary DOUBLE
+);
+
+
+1.Add Employee:-
+
+INSERT INTO employee(empId, name, salary) 
+VALUES
+(101,'Vikash',970000),
+(102,'Vishal',89000),
+(103,'Anuj',90000),
+(104,'Anupam',88000),
+(105,'Virendra',70000);
+
+Output:
+
+3	9	16:39:23	INSERT INTO employee(empId, name, salary) 
+ VALUES
+ (101,'Vikash',970000),
+ (102,'Vishal',89000),
+ (103,'Anuj',90000),
+ (104,'Anupam',88000),
+ (105,'Virendra',70000)	5 row(s) affected
+ Records: 5  Duplicates: 0  Warnings: 0	0.000 sec
+ 
+2.View All Employee:-
+
+   SELECT *FROM employee;
+   
+   
+   Output:-
+   
++-------+----------+--------+
+| empId | name     | salary |
++-------+----------+--------+
+|   101 | Vikash   | 970000 |
+|   102 | Vishal   |  89000 |
+|   103 | Anuj     |  90000 |
+|   104 | Anupam   |  88000 |
+|   105 | Virendra |  70000 |
++-------+----------+--------+
+5 rows in set (0.00 sec)
+
+
+
+3.Update employee salary:-
+
+mysql> UPDATE employee
+    -> set salary=100000
+    -> where empId=102;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT *FROM employee;
+
+Output:-
+
++-------+----------+--------+
+| empId | name     | salary |
++-------+----------+--------+
+|   101 | Vikash   | 970000 |
+|   102 | Vishal   | 100000 |
+|   103 | Anuj     |  90000 |
+|   104 | Anupam   |  88000 |
+|   105 | Virendra |  70000 |
++-------+----------+--------+
+5 rows in set (0.00 sec)
+
+
+
+
+
+4.Delete employee:-
+
+
+mysql> DELETE FROM employee WHERE empId=103;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT *FROM employee;
+
+Output:- 
+
++-------+----------+--------+
+| empId | name     | salary |
++-------+----------+--------+
+|   101 | Vikash   | 970000 |
+|   102 | Vishal   | 100000 |
+|   104 | Anupam   |  88000 |
+|   105 | Virendra |  70000 |
++-------+----------+--------+
+4 rows in set (0.00 sec)
+
+
+
+
+5. Search Employee By Name:-
+
+mysql> SELECT *FROM employee
+    -> WHere name="Vikash";
+    
+Output:-    
+    
++-------+--------+--------+
+| empId | name   | salary |
++-------+--------+--------+
+|   101 | Vikash | 970000 |
++-------+--------+--------+
+1 row in set (0.00 sec)
+
+mysql> SELECT *FROM employee
+    -> WHERE name LIKE 'V%';
+    
+Output:-
++-------+----------+--------+
+| empId | name     | salary |
++-------+----------+--------+
+|   101 | Vikash   | 970000 |
+|   102 | Vishal   | 100000 |
+|   105 | Virendra |  70000 |
++-------+----------+--------+
+3 rows in set (0.02 sec)
+
