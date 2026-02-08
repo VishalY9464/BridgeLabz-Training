@@ -1,0 +1,93 @@
+/*
+
+Exercise 2: Transaction Management
+Implement a banking system with:
+• Transfer money between accounts (use transactions)
+• Check balance
+• Transaction history
+
+*/
+
+		use mysql_jdbc_db;
+		 
+		CREATE TABLE account(
+			account_id INT PRIMARY KEY,
+		    name VARCHAR(50),
+		    balance INT
+		);
+		
+		
+		CREATE TABLE transaction_history(
+			txn_id INT AUTO_INCREMENT PRIMARY KEY,
+		    from_account INT,
+		    to_account INT,
+		    amount INT,
+		    txn_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+		);
+		
+		
+	   INSERT INTO account VALUES
+    -> (1,'Vishal',5000),
+    -> (2,'Vikash',2000);
+       Query OK, 2 rows affected (0.01 sec)
+       Records: 2  Duplicates: 0  Warnings: 0
+
+     mysql> SELECT *FROM account;
+     +------------+--------+---------+
+     | account_id | name   | balance |
+     +------------+--------+---------+
+     |          1 | Vishal |    5000 |
+     |          2 | Vikash |    2000 |
+     +------------+--------+---------+
+     2 rows in set (0.00 sec)
+     
+     
+     1- Transfer money between accounts (use transactions)
+     
+
+		START TRANSACTION;
+		
+		UPDATE account
+		SET balance= balance-2000
+		WHERE account_id=1;
+		
+		UPDATE account 
+		SET balance= balance+2000
+		WHERE account_id=2;
+		
+		INSERT into transaction_history(from_account, to_account, amount)
+		VALUES
+		(1,2,2000);
+		
+		COMMIT;
+		
+	2- Check Balance
+	
+	    
+	   mysql> SELECT *FROM account;
+       +------------+--------+---------+
+       | account_id | name   | balance |
+       +------------+--------+---------+
+       |          1 | Vishal |    3000 |
+       |          2 | Vikash |    2000 |
+       +------------+--------+---------+
+       2 rows in set (0.00 sec)
+       
+       
+   3. Transaction History
+   
+      mysql> SELECT *FROM transaction_history;
+      +--------+--------------+------------+--------+---------------------+
+      | txn_id | from_account | to_account | amount | txn_date            |
+      +--------+--------------+------------+--------+---------------------+
+      |      1 |            2 |          1 |   2000 | 2026-02-08 15:14:38 |
+      |      2 |            1 |          2 |   2000 | 2026-02-08 15:19:11 |
+      +--------+--------------+------------+--------+---------------------+
+      2 rows in set (0.00 sec)
+		
+		
+	
+     
+     
+
+		
