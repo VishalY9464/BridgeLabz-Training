@@ -1,0 +1,188 @@
+/*
+
+Exercise 3: Advanced Features
+Build a library management system with:
+• Book inventory
+• Student borrowing records
+• Fine calculation
+• Search functionality with multiple filters
+
+*/
+
+1. Book Inventory-:
+
+CREATE TABLE book (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(100),
+    author VARCHAR(100),
+    category VARCHAR(50),
+    total_copies INT,
+    available_copies INT
+);
+
+
+INSERT INTO book VALUES
+(101, 'Java Programming', 'James Gosling', 'Programming', 5, 5),
+(102, 'SQL Fundamentals', 'Alan Beaulieu', 'Database', 3, 3),
+(103, 'Data Structures', 'Mark Allen Weiss', 'Computer Science', 4, 4);
+
+SELECT * FROM book;
+
+Output:-
+
+mysql> SELECT * FROM book;
++---------+------------------+------------------+------------------+--------------+------------------+
+| book_id | title            | author           | category         | total_copies | available_copies |
++---------+------------------+------------------+------------------+--------------+------------------+
+|     101 | Java Programming | James Gosling    | Programming      |            5 |                5 |
+|     102 | SQL Fundamentals | Alan Beaulieu    | Database         |            3 |                3 |
+|     103 | Data Structures  | Mark Allen Weiss | Computer Science |            4 |                4 |
++---------+------------------+------------------+------------------+--------------+------------------+
+
+
+2. Student borrowing records-:
+
+CREATE TABLE student (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    course VARCHAR(50)
+);
+
+
+INSERT INTO student VALUES
+(1, 'Vishal', 'B.Tech'),
+(2, 'Vikash', 'BCA');
+
+
+mysql> SELECT *FROM student;
++------------+--------+--------+
+| student_id | name   | course |
++------------+--------+--------+
+|          1 | Vishal | BTech  |
+|          2 | Vikash | BCA    |
++------------+--------+--------+
+
+
+CREATE TABLE borrow_record (
+    borrow_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    book_id INT,
+    borrow_date DATE,
+    due_date DATE,
+    return_date DATE
+);
+
+
+
+mysql> SELECT *FROM borrow_record;
++-----------+------------+---------+-------------+------------+-------------+
+| borrow_id | student_id | book_id | borrow_date | due_date   | return_date |
++-----------+------------+---------+-------------+------------+-------------+
+|         1 |          1 |     101 | 2026-02-08  | 2026-02-15 | NULL        |
++-----------+------------+---------+-------------+------------+-------------+
+1 row in set (0.00 sec)
+
+
+mysql> UPDATE borrow_record
+    -> SET return_date = DATE_ADD(due_date, INTERVAL 3 DAY)
+    -> WHERE borrow_id = 1;
+Query OK, 1 row affected (0.02 sec)
+
+
+
+mysql> SELECT *FROM borrow_record;
++-----------+------------+---------+-------------+------------+-------------+
+| borrow_id | student_id | book_id | borrow_date | due_date   | return_date |
++-----------+------------+---------+-------------+------------+-------------+
+|         1 |          1 |     101 | 2026-02-08  | 2026-02-15 | 2026-02-18  |
++-----------+------------+---------+-------------+------------+-------------+
+1 row in set (0.00 sec)
+
+
+3. Fine calculation-:
+
+mysql> SELECT
+    ->     borrow_id,
+    ->     student_id,
+    ->     book_id,
+    ->     DATEDIFF(return_date, due_date) AS late_days,
+    ->     DATEDIFF(return_date, due_date) * 10 AS fine_amount
+    -> FROM borrow_record
+    -> WHERE return_date > due_date;
++-----------+------------+---------+-----------+-------------+
+| borrow_id | student_id | book_id | late_days | fine_amount |
++-----------+------------+---------+-----------+-------------+
+|         1 |          1 |     101 |         3 |          30 |
++-----------+------------+---------+-----------+-------------+
+1 row in set (0.00 sec)
+
+
+4. Search functionality with multiple filters
+
+Example 1: Search by title keyword
+
+mysql> SELECT * FROM book
+    -> WHERE title LIKE '%Java%';
++---------+------------------+---------------+-------------+--------------+------------------+
+| book_id | title            | author        | category    | total_copies | available_copies |
++---------+------------------+---------------+-------------+--------------+------------------+
+|     101 | Java Programming | James Gosling | Programming |            5 |                4 |
++---------+------------------+---------------+-------------+--------------+------------------+
+1 row in set (0.00 sec)
+
+Example 2: Search by author and category
+
+mysql> SELECT * FROM book
+    -> WHERE author LIKE '%Gosling%';
++---------+------------------+---------------+-------------+--------------+------------------+
+| book_id | title            | author        | category    | total_copies | available_copies |
++---------+------------------+---------------+-------------+--------------+------------------+
+|     101 | Java Programming | James Gosling | Programming |            5 |                4 |
++---------+------------------+---------------+-------------+--------------+------------------+
+1 row in set (0.00 sec)
+
+
+mysql> SELECT * FROM book
+    -> WHERE category = 'Programming';
++---------+------------------+---------------+-------------+--------------+------------------+
+| book_id | title            | author        | category    | total_copies | available_copies |
++---------+------------------+---------------+-------------+--------------+------------------+
+|     101 | Java Programming | James Gosling | Programming |            5 |                4 |
++---------+------------------+---------------+-------------+--------------+------------------+
+1 row in set (0.00 sec)
+
+
+Example 3: Search books with available copies
+
+
+mysql> SELECT * FROM book
+    -> WHERE available_copies > 0;
++---------+------------------+------------------+------------------+--------------+------------------+
+| book_id | title            | author           | category         | total_copies | available_copies |
++---------+------------------+------------------+------------------+--------------+------------------+
+|     101 | Java Programming | James Gosling    | Programming      |            5 |                4 |
+|     102 | SQL Fundamentals | Alan Beaulieu    | Database         |            3 |                3 |
+|     103 | Data Structures  | Mark Allen Weiss | Computer Science |            4 |                4 |
++---------+------------------+------------------+------------------+--------------+------------------+
+3 rows in set (0.00 sec)
+
+
+Example 4: Combined Filter
+
+mysql> SELECT * FROM book
+    -> WHERE category = 'Programming'
+    -> AND author LIKE '%James%'
+    -> AND available_copies > 0;
++---------+------------------+---------------+-------------+--------------+------------------+
+| book_id | title            | author        | category    | total_copies | available_copies |
++---------+------------------+---------------+-------------+--------------+------------------+
+|     101 | Java Programming | James Gosling | Programming |            5 |                4 |
++---------+------------------+---------------+-------------+--------------+------------------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
